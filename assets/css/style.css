@@ -504,6 +504,13 @@ footer { background: var(--white-2); }
 
 footer .logo { margin-bottom: 30px; }
 
+.logo_nav{
+  font-size: var(--fs-2);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: var(--bittersweet);
+  
+}
+
 .footer-text {
   color: var(--rythm);
   font-size: var(--fs-6);
