@@ -20,6 +20,8 @@
    * colors
    */
 
+   /*  */
+
   --maximum-yellow-red: hsl(37, 100%, 68%);
   --royal-blue-dark: hsl(231, 61%, 22%);
   --silver-chalice: hsl(0, 0%, 70%);
@@ -30,7 +32,7 @@
   --cool-gray: hsl(240, 13%, 62%);
   --platinum: hsl(0, 0%, 92%);
   --white-2: hsl(0, 0%, 98%);
-  --white: hsl(0, 0%, 100%);
+  --white: hsl(0, 0%, 100%); 
   --black: hsl(0, 0%, 0%);
   --rythm: hsl(240, 9%, 53%);
 
