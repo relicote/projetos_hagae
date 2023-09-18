@@ -620,6 +620,20 @@ footer .logo { margin-bottom: 30px; }
 
 @media (min-width: 450px) {
 
+  .hero-banner {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-200%); 
+    transform: translateX(-100%); 
+    width: 200px;
+    padding-top: 200px;
+    background: url("../images/hero-banner.png") no-repeat;
+    background-size: contain;
+  }
+
+
   /**
    * CUSTOM PROPERTY 
    */
@@ -750,6 +764,7 @@ footer .logo { margin-bottom: 30px; }
  */
 
 @media (min-width: 560px) {
+  
 
   /**
    * REUESED STYLE 
@@ -814,6 +829,7 @@ footer .logo { margin-bottom: 30px; }
  */
 
 @media (min-width: 768px) {
+  
 
   /**
    * CUSTOM PROPERTY 
