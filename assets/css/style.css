@@ -447,7 +447,13 @@ header .container {
   margin-inline: auto;
 }
 
+/* btn secondary-grow */
+.btn-secondary-grow{
+  margin-top: 25px;
+  color: var(--white)
+}
 
+.btn-secondary-grow:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
 
 
 
@@ -695,8 +701,14 @@ footer .logo { margin-bottom: 30px; }
 
   .cta-title { --fs-1: 42px; }
 
-  .cta-button {
-    
+  .cta-button { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+  }
+
+  .cta-button-grow { 
     display: flex;
     justify-content: center;
     align-items: flex-end;
