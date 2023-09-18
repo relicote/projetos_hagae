@@ -705,10 +705,10 @@ footer .logo { margin-bottom: 30px; }
 
   /* backgroud do botão OPCIONAL */
 
-  /* .cta-button > button{
-    text-shadow: 1px 2px black;
-    background-color: black;
-  } */
+  .cta-button > button{
+    text-shadow: 1px 1px black;
+    /* background-color: black; */
+  }
 
   .cta input { margin-bottom: 0; }
 
