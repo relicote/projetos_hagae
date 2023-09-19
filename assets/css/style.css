@@ -264,6 +264,8 @@ header .container {
 .hero-title,
 .hero-text { margin-bottom: 40px; }
 
+
+
 .hero-text {
   font-size: var(--fs-4);
   color: var(--oxford-blue);
@@ -620,18 +622,18 @@ footer .logo { margin-bottom: 30px; }
 
 @media (min-width: 450px) {
 
-  .hero-banner {
+  /* .hero-banner {
     display: block;
     position: absolute;
     top: 50%;
     right: 0;
-    /* transform: translateY(-200%);  */
+    transform: translateY(-200%); 
     transform: translateX(-80%); 
     width: 200px;
     padding-top: 200px;
     background: url("../images/hero-banner.png") no-repeat;
     background-size: contain;
-  }
+  } */
 
 
   /**
