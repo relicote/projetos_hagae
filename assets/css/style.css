@@ -625,8 +625,8 @@ footer .logo { margin-bottom: 30px; }
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-200%); 
-    transform: translateX(-100%); 
+    /* transform: translateY(-200%);  */
+    transform: translateX(-80%); 
     width: 200px;
     padding-top: 200px;
     background: url("../images/hero-banner.png") no-repeat;
