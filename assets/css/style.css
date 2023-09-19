@@ -326,6 +326,13 @@ header .container {
   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
 }
 
+.about-card-mid {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+
 .card-icon {
   color: var(--bittersweet);
   font-size: 45px;
@@ -336,7 +343,10 @@ header .container {
 
 .about-card .card-title { margin-bottom: 15px; }
 
-.about-card .card-text { color: var(--davys-gray); }
+.about-card .card-text { 
+  color: var(--davys-gray); 
+  text-align: justify;
+}
 
 .about-bottom-banner { margin-bottom: 120px; }
 
@@ -420,7 +430,7 @@ header .container {
 }
 
 .cta-title {
-  text-shadow: 2px 2px black;
+  /* text-shadow: 2px 2px black; */
   color: var(--white);
   font-size: var(--fs-1);
   font-weight: var(--fw-600);
@@ -430,7 +440,7 @@ header .container {
 
 .cta-text {
   color: var(--white);
-  text-shadow: 1px 2px black;
+  /* text-shadow: 1px 2px black; */
   font-size: var(--fs-5);
   margin-bottom: 50px;
 }
@@ -733,10 +743,10 @@ footer .logo { margin-bottom: 30px; }
 
   /* backgroud do botão OPCIONAL */
 
-  .cta-button > button{
+  /* .cta-button > button{
     text-shadow: 1px 1px black;
-    /* background-color: black; */
-  }
+    background-color: black;
+  } */
 
   .cta input { margin-bottom: 0; }
 
