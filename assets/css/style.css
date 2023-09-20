@@ -264,6 +264,8 @@ header .container {
 .hero-title,
 .hero-text { margin-bottom: 40px; }
 
+
+
 .hero-text {
   font-size: var(--fs-4);
   color: var(--oxford-blue);
@@ -324,6 +326,17 @@ header .container {
   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
 }
 
+.about-card-mid {
+  background: var(--white);
+  padding: 40px;
+  content: 0%;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+
 .card-icon {
   color: var(--bittersweet);
   font-size: 45px;
@@ -334,7 +347,10 @@ header .container {
 
 .about-card .card-title { margin-bottom: 15px; }
 
-.about-card .card-text { color: var(--davys-gray); }
+.about-card .card-text { 
+  color: var(--davys-gray); 
+  text-align: justify;
+}
 
 .about-bottom-banner { margin-bottom: 120px; }
 
@@ -418,6 +434,7 @@ header .container {
 }
 
 .cta-title {
+  /* text-shadow: 2px 2px black; */
   color: var(--white);
   font-size: var(--fs-1);
   font-weight: var(--fw-600);
@@ -427,7 +444,8 @@ header .container {
 
 .cta-text {
   color: var(--white);
-  font-size: var(--fs-6);
+  /* text-shadow: 1px 2px black; */
+  font-size: var(--fs-5);
   margin-bottom: 50px;
 }
 
@@ -445,7 +463,13 @@ header .container {
   margin-inline: auto;
 }
 
+/* btn secondary-grow */
+.btn-secondary-grow{
+  margin-top: 25px;
+  color: var(--white)
+}
 
+.btn-secondary-grow:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
 
 
 
@@ -612,6 +636,20 @@ footer .logo { margin-bottom: 30px; }
 
 @media (min-width: 450px) {
 
+  /* .hero-banner {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-200%); 
+    transform: translateX(-80%); 
+    width: 200px;
+    padding-top: 200px;
+    background: url("../images/hero-banner.png") no-repeat;
+    background-size: contain;
+  } */
+
+
   /**
    * CUSTOM PROPERTY 
    */
@@ -678,6 +716,11 @@ footer .logo { margin-bottom: 30px; }
   .about-bottom-content { padding-inline: 50px; }
 
 
+  /* acertar responsividade */
+  /* .about-card-mid{
+    margin-left: 52px;
+  } */
+
 
   /**
    * FEATURES
@@ -693,12 +736,26 @@ footer .logo { margin-bottom: 30px; }
 
   .cta-title { --fs-1: 42px; }
 
-  .cta-form {
+  .cta-button { 
     display: flex;
     justify-content: center;
     align-items: flex-end;
     gap: 30px;
   }
+
+  .cta-button-grow { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 30px;
+  }
+
+  /* backgroud do botão OPCIONAL */
+
+  /* .cta-button > button{
+    text-shadow: 1px 1px black;
+    background-color: black;
+  } */
 
   .cta input { margin-bottom: 0; }
 
@@ -728,6 +785,7 @@ footer .logo { margin-bottom: 30px; }
  */
 
 @media (min-width: 560px) {
+  
 
   /**
    * REUESED STYLE 
@@ -792,6 +850,7 @@ footer .logo { margin-bottom: 30px; }
  */
 
 @media (min-width: 768px) {
+  
 
   /**
    * CUSTOM PROPERTY 
