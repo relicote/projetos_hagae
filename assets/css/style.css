@@ -453,6 +453,41 @@ header .container {
 }
 
 
+/*-----------------------------------*\ 
+ * #FOR WHO
+\*-----------------------------------*/
+
+
+.for-who-list {
+  display: flex;
+  gap: 30px;
+}
+
+.for-who-card {
+  background: var(--white);
+  padding: 20px;
+  /* border-radius: 12px; */
+  border-style: groove;
+  border-color: black;
+ 
+  height: 100%;
+  margin-right: 0%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.for-who-card > h4{
+  text-align: center;
+  color: black;
+}
+
+.for-who-card > p{
+  text-align: center;
+  color: black;
+}
 
 
 
@@ -929,7 +964,11 @@ footer .logo { margin-bottom: 30px; }
 
   .about-card .card-title { padding-inline: 0; }
 
+/*
+FOR WHO 
+ */
 
+ .for-who-list { grid-template-columns: 1fr 1fr; }
 
   /**
    * CONTACT
