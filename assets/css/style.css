@@ -459,8 +459,13 @@ header .container {
 
 
 .for-who-list {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+}
+
+.for-who-list > * {
+  flex: 1;
 }
 
 .for-who-card {
@@ -799,13 +804,7 @@ footer .logo { margin-bottom: 30px; }
 
   .features .h2 { --fs-2: 32px; }
 
-  .for-who-list{
-    /* visibility: hidden; */
-    grid-template-columns: 1fr;
-    gap: 30px;
-
-  }
-
+  
 
 
   /**
