@@ -459,7 +459,7 @@ header .container {
 
 
 .for-who-list {
-  display: flex;
+  display: grid;
   gap: 30px;
 }
 
@@ -794,10 +794,17 @@ footer .logo { margin-bottom: 30px; }
 
 
   /**
-   * FEATURES
+   * FEATURES / FOR WHO
    */
 
   .features .h2 { --fs-2: 32px; }
+
+  .for-who-list{
+    /* visibility: hidden; */
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+  }
 
 
 
@@ -968,7 +975,17 @@ footer .logo { margin-bottom: 30px; }
 FOR WHO 
  */
 
- .for-who-list { grid-template-columns: 1fr 1fr; }
+ /* .for-who-list { grid-template-columns: 1fr 1fr; }
+
+ .for-who-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.for-who-card .card-title { padding-inline: 0; } */
 
   /**
    * CONTACT
