@@ -299,10 +299,20 @@ header .container {
 .about-card-resume {
   background: var(--white);
   padding: 40px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
   border-style: groove;
   border-color: black;
   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+
+.about-card-resume > h4{
+  text-align: center;
+  color: black;
+}
+
+.about-card-resume > p{
+  text-align: center;
+  color: black;
 }
 
 
