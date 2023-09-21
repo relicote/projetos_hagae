@@ -291,11 +291,20 @@ header .container {
   text-align: center;
 }
 
-
 .resume-content > p {
   text-align: center;
   
 }
+
+.about-card-resume {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 12px;
+  border-style: groove;
+  border-color: black;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+}
+
 
 
 /*-----------------------------------*\ 
