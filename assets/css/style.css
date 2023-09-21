@@ -283,8 +283,18 @@ header .container {
   z-index: -1;
 }
 
+/*-----------------------------------*\ 
+ * #RESUME
+\*-----------------------------------*/
 
+.resume-content > h2 {
+  text-align: center;
+}
 
+.resume-content > p {
+  text-align: center;
+  text-transform: uppercase;
+}
 
 
 /*-----------------------------------*\ 
