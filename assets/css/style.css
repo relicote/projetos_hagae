@@ -296,6 +296,7 @@ header .container {
   
 }
 
+
 .about-card-resume {
   background: var(--white);
   padding: 40px;
@@ -303,6 +304,11 @@ header .container {
   border-style: groove;
   border-color: black;
   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .about-card-resume > h4{
