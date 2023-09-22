@@ -510,9 +510,18 @@ header .container {
   margin-bottom: 20px;
 }
 
-.why-us-card-title{
+.why-us-card{
   color: black;
-  size: 3000px;
+  padding: 20px;
+}
+
+.why-us-card > p{
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.why-us-text > p{
+  text-align: center;
 }
 
 /*-----------------------------------*\ 
