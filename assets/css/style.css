@@ -497,6 +497,21 @@ header .container {
 
 
 /*-----------------------------------*\ 
+ * #WHY-US
+\*-----------------------------------*/
+
+.why-us {
+  padding: 0px;
+  text-align: center;
+}
+
+.why-us .section-title {
+  color: var(--royal-blue-dark);
+  margin-bottom: 20px;
+}
+
+
+/*-----------------------------------*\ 
  * #CTA
 \*-----------------------------------*/
 
@@ -805,7 +820,11 @@ footer .logo { margin-bottom: 30px; }
   .features .h2 { --fs-2: 32px; }
 
   
+/* 
+WHY US
+*/
 
+.why-us .h2 { --fs-2: 32px; }
 
   /**
    * CTA
