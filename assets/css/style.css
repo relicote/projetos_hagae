@@ -255,8 +255,16 @@ header .container {
 
 .hero {
   position: relative;
-  padding: 130px 0 140px;
+  padding: 80px 0 60px;
   z-index: 1;
+}
+
+.hero-button { 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 45px;
+  /* gap: 30px; */
 }
 
 .hero-content { text-align: center; }
@@ -796,7 +804,7 @@ footer .logo { margin-bottom: 30px; }
    * HERO 
    */
 
-  .hero { padding: 140px 0 160px; }
+  .hero { padding: 80px 0 60px; }
 
   .shape-content {
     top: -70px;
