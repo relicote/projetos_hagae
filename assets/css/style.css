@@ -124,7 +124,9 @@ body {
 ::-webkit-scrollbar-thumb { background: hsl(0, 0%, 50%); }
 
 
-
+.shape-content{
+  height: 100%;
+}
 
 
 /*-----------------------------------*\ 
@@ -478,7 +480,7 @@ header .container {
 
 .for-who-card {
   background: var(--white);
-  padding: 20px;
+  padding: 10px;
   /* border-radius: 12px; */
   border-style: groove;
   border-color: black;
@@ -502,6 +504,14 @@ header .container {
   color: black;
 }
 
+.for-who-button { 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 45px;
+  /* gap: 30px; */
+}
+
 
 
 /*-----------------------------------*\ 
@@ -509,7 +519,6 @@ header .container {
 \*-----------------------------------*/
 
 .why-us {
-  padding: 0px;
   text-align: center;
 }
 
@@ -530,6 +539,14 @@ header .container {
 
 .why-us-text > p{
   text-align: center;
+}
+
+.why-us-button { 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 45px;
+  /* gap: 30px; */
 }
 
 /*-----------------------------------*\ 
