@@ -596,6 +596,11 @@ header .container {
   text-align: left;
 }
 
+.arrow-down{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
 .question {
   font-weight: bold;
   cursor: pointer;
