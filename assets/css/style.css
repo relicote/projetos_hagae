@@ -558,6 +558,18 @@ header .container {
   padding: 50px;
 }
 
+.row-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-text,
+.right-text {
+  text-align: justify;
+  flex: 1;
+  padding: 10px; /* Opcional: Adicione preenchimento para espaçamento interno */
+ 
+}
 
 
 /*-----------------------------------*\ 
