@@ -555,7 +555,7 @@ header .container {
 
 .who-we-are {
   text-align: center;
-  padding: 50px;
+  padding: 40px;
 }
 
 .row-content{
@@ -569,6 +569,14 @@ header .container {
   flex: 1;
   padding: 10px; /* Opcional: Adicione preenchimento para espaçamento interno */
  
+}
+
+.who-we-are-button { 
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 45px;
+  /* gap: 30px; */
 }
 
 
