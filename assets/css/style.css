@@ -592,22 +592,22 @@ header .container {
   margin: 20px 0;
   border-style: solid;
   border-radius: 10px;
+  border-color: black;
   text-align: left;
-  font-family: var(--ff-poppins);
 }
 
 .question {
   font-weight: bold;
   cursor: pointer;
   margin-left: 5px;
-  color: white;
+  color: black;
 }
 
 .answer {
   display: none;
   margin-top: 10px;
   margin-left: 5px;
-  color: white;
+  color: black;
 }
 
 .answer.show {
