@@ -585,6 +585,31 @@ header .container {
 
 
 /*-----------------------------------*\ 
+ * #FAQ
+\*-----------------------------------*/
+
+.faq {
+  margin: 20px 0;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.question {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.answer {
+  display: none;
+  margin-top: 10px;
+}
+
+.answer.show {
+  display: block;
+}
+
+
+/*-----------------------------------*\ 
  * #CTA
 \*-----------------------------------*/
 
