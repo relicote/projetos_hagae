@@ -558,6 +558,10 @@ header .container {
   padding: 40px;
 }
 
+.who-we-are h2{
+  padding: 10px;
+}
+
 .row-content{
   display: flex;
   flex-direction: column;
