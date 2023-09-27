@@ -593,19 +593,21 @@ header .container {
   border-style: solid;
   border-radius: 10px;
   text-align: left;
-
+  font-family: var(--ff-poppins);
 }
 
 .question {
   font-weight: bold;
   cursor: pointer;
   margin-left: 5px;
+  color: white;
 }
 
 .answer {
   display: none;
   margin-top: 10px;
   margin-left: 5px;
+  color: white;
 }
 
 .answer.show {
@@ -617,7 +619,7 @@ header .container {
  * #CTA
 \*-----------------------------------*/
 
-.cta { padding: 120px 0; }
+.cta { padding: 50px 0; }
 
 .cta-card {
   background: linear-gradient(to top, var(--bittersweet) 0, var(--french-rose));
