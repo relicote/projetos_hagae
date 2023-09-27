@@ -601,6 +601,8 @@ header .container {
   cursor: pointer;
   margin-left: 5px;
   color: black;
+  display: flex;
+  justify-content: space-between;
 }
 
 .answer {
