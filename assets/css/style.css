@@ -560,7 +560,7 @@ header .container {
 
 .row-content{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .left-text,
@@ -882,8 +882,13 @@ footer .logo { margin-bottom: 30px; }
 
   
 /* 
-WHY US
+who we are
 */
+
+.row-content{
+  /* display: flex; */
+  flex-direction: row;
+}
 
 .why-us .h2 { --fs-2: 32px; }
 
@@ -952,7 +957,6 @@ WHY US
     max-width: 550px;
     margin-inline: auto;
   }
-
 
 
   /**
