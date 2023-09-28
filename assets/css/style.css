@@ -498,6 +498,7 @@ header .container {
   /* border-radius: 12px; */
   border-style: groove;
   border-color: black;
+  border-radius: 15px;
  
   height: 100%;
   margin-right: 0%;
