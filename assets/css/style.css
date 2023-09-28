@@ -168,11 +168,17 @@ body {
   padding: 10px 40px;
   border: 1px solid;
   border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wpp{
+  margin-left: 4px;
+  margin-top: 3px;
 }
 
 .btn-primary {
-  background: var(--bittersweet);
-  border-color: var(--bittersweet);
+  background: #25D366;
   color: var(--white);
 }
 
@@ -318,6 +324,7 @@ header .container {
   padding: 40px;
   /* border-radius: 12px; */
   border-style: groove;
+  border-radius: 12PX;
   border-color: black;
   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
 
@@ -578,6 +585,10 @@ header .container {
 .row-content{
   display: flex;
   flex-direction: column;
+}
+
+.left-text{
+  line-height: 30px;
 }
 
 .left-text,
