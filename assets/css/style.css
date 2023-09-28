@@ -274,6 +274,12 @@ header .container {
 .hero-title,
 .hero-text { margin-bottom: 40px; }
 
+.hero .section-title, .hero-title {
+  color: var(--royal-blue-dark);
+  margin-bottom: 20px;
+}
+
+
 
 
 .hero-text {
@@ -468,6 +474,7 @@ header .container {
 \*-----------------------------------*/
 
 
+
 .for-who-list {
   display: flex;
   flex-wrap: wrap;
@@ -552,6 +559,12 @@ header .container {
 /*-----------------------------------*\ 
  * #WHO-WE-ARE
 \*-----------------------------------*/
+
+.who-we-are .section-title {
+  color: var(--royal-blue-dark);
+  margin-bottom: 20px;
+}
+
 
 .who-we-are {
   text-align: center;
