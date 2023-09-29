@@ -588,7 +588,7 @@ header .container {
 
 .row-content{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .left-text{
@@ -983,7 +983,7 @@ who we are
 
 .row-content{
   /* display: flex; */
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .why-us .h2 { --fs-2: 32px; }
