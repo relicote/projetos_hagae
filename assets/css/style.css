@@ -657,9 +657,11 @@ header .container {
 .cta { padding: 50px 0; }
 
 .cta-card {
-  background: linear-gradient(to top, var(--bittersweet) 0, var(--french-rose));
+  border-style: groove;
+  border-color: black;
+  border-radius: 15px;
+
   padding: 80px 36px;
-  border-radius: 20px;
   text-align: center;
 }
 
@@ -673,7 +675,16 @@ header .container {
   font-size: var(--fs-1);
   font-weight: var(--fw-600);
   line-height: 1.3;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.gradient{
+    transform: translateY(-95px);
+    font-size: 70px;
+    background: linear-gradient(to top, transparent 3%, #c0c6c8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 90%;
 }
 
 .cta-text {
@@ -871,7 +882,7 @@ footer .logo { margin-bottom: 30px; }
  * responsive for larger than 450px 
  */
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
 
   /* .hero-banner {
     display: block;
@@ -982,6 +993,10 @@ who we are
    */
 
   .cta-title { --fs-1: 42px; }
+
+  .gradient{
+    transform: translateY(-180px);
+  }
 
   .cta-button { 
     display: flex;
