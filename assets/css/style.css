@@ -712,6 +712,8 @@ header .container {
 .btn-secondary-grow{
   background: #25D366;
   margin-top: 25px;
+
+  align-content: center;
   
   border-color: #25D366;
   color: var(--white)
@@ -1005,12 +1007,6 @@ who we are
     gap: 30px;
   }
 
-  .cta-button-grow { 
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 30px;
-  }
 
   /* backgroud do botão OPCIONAL */
 
