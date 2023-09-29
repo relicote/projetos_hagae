@@ -660,6 +660,10 @@ header .container {
   text-align: center;
 }
 
+.cta-card > H3{
+  color: black;
+}
+
 .cta-title {
   /* text-shadow: 2px 2px black; */
   color: var(--white);
