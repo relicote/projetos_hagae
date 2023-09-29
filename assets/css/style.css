@@ -428,6 +428,8 @@ header .container {
 }
 
 .about-bottom .btn-secondary {
+  background: #25D366;
+  border-color: #25D366;
   color: var(--white);
   margin-inline: auto;
 }
