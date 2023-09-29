@@ -83,7 +83,6 @@ a,
 img,
 button,
 span,
-ion-icon,
 label,
 input,
 textarea { display: block; }
@@ -180,6 +179,8 @@ body {
 .btn-primary {
   background: #25D366;
   color: var(--white);
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn-primary:is(:hover, :focus) { --bittersweet: hsl(2, 90%, 65%); }
@@ -696,11 +697,14 @@ header .container {
 
 /* btn secondary-grow */
 .btn-secondary-grow{
+  background: #25D366;
   margin-top: 25px;
+  
+  border-color: #25D366;
   color: var(--white)
 }
 
-.btn-secondary-grow:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
+/* .btn-secondary-grow:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); } */
 
 
 
