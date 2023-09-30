@@ -889,13 +889,11 @@ footer .logo { margin-bottom: 30px; }
 @media (max-width: 450px) {
 
   .hero-banner {
-    display: block;
+    display: flex;
     position: absolute;
     top: 50%;
-    right: 0;
-    transform: translateY(-200%); 
-    transform: translateX(-80%); 
-    width: 200px;
+    left: 35%;
+    width: 120px;
     padding-top: 200px;
     background: url("../images/hero-banner.png") no-repeat;
     background-size: contain;
