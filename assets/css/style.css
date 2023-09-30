@@ -664,7 +664,7 @@ header .container {
   border-color: black;
   border-radius: 15px;
 
-  padding: 80px 36px;
+  padding: 110px 36px 5px;
   text-align: center;
 }
 
@@ -678,7 +678,6 @@ header .container {
   font-size: var(--fs-1);
   font-weight: var(--fw-600);
   line-height: 1.3;
-  margin-bottom: 10px;
 }
 
 .gradient{
