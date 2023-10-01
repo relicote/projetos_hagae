@@ -336,6 +336,14 @@ header .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  transition: ease-in-out 0.5s;
+
+}
+
+.about-card-resume:hover{
+  transform: translateY(-20px);
+  transition: ease-in-out 0.5s;
 }
 
 .about-card-resume > h4{
@@ -387,6 +395,12 @@ header .container {
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+  transition: ease-in-out 0.5s;
+}
+
+.about-card:hover{
+  transform: translateY(-20px);
+  transition: ease-in-out 0.5s;
 }
 
 .about-card-mid {
@@ -512,13 +526,22 @@ header .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  transition: ease-in-out 0.5s;
+
   
+}
+
+.for-who-card:hover{
+  transform: translateY(-20px);
+  transition: ease-in-out 0.5s;
 }
 
 .for-who-card > h4{
   text-align: center;
   color: black;
 }
+
+
 
 .for-who-card > p{
   text-align: center;
