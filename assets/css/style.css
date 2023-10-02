@@ -181,6 +181,7 @@ body {
 
 .btn-primary {
   background: #25D366;
+  border-color: black;
   color: var(--white);
   display: flex;
   justify-content: space-between;
