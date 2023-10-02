@@ -370,7 +370,7 @@ header .container {
 .about {
   position: relative;
   z-index: 1;
-  background: url("../images/about-bg-purple.png") no-repeat;
+  background: url("../images/about-bg-purple-2.png") no-repeat;
   background-position: center;
   background-size: cover;
   padding: 120px 0;
@@ -1260,7 +1260,7 @@ FOR WHO
     transform: translateY(-50%);
     width: 500px;
     padding-top: 500px;
-    background: url("../images/banner-purple.jpg") no-repeat;
+    background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
   }
  
