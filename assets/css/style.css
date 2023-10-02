@@ -22,7 +22,7 @@
 
    /*  */
 
-  --maximum-yellow-red: hsl(37, 100%, 68%);
+  --maximum-yellow-red: hsl(253, 91%, 79%);
   --royal-blue-dark: hsl(231, 61%, 22%);
   --silver-chalice: hsl(0, 0%, 70%);
   --oxford-blue: hsl(231, 100%, 8%);
@@ -199,6 +199,8 @@ body {
  * #HEADER
 \*-----------------------------------*/
 
+
+
 header {
   position: relative;
   padding: 35px 0;
@@ -310,6 +312,7 @@ header .container {
   z-index: -1;
 }
 
+
 /*-----------------------------------*\ 
  * #RESUME
 \*-----------------------------------*/
@@ -322,6 +325,7 @@ header .container {
   text-align: center;
   
 }
+
 
 
 .about-card-resume {
@@ -805,13 +809,6 @@ footer { background: var(--white-2); }
 .footer-brand { margin-bottom: 20px; }
 
 footer .logo { margin-bottom: 30px; }
-
-.logo_nav{
-  font-size: var(--fs-2);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  color: var(--bittersweet);
-  
-}
 
 .footer-text {
   color: var(--rythm);
