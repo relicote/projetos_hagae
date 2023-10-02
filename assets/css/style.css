@@ -916,7 +916,7 @@ footer .logo { margin-bottom: 30px; }
     left: 35%;
     width: 120px;
     padding-top: 200px;
-    background: url("../images/hero-banner.png") no-repeat;
+    background: url("../images/banner-purple.jpg") no-repeat;
     background-size: contain;
   }
 
@@ -1260,7 +1260,7 @@ FOR WHO
     transform: translateY(-50%);
     width: 500px;
     padding-top: 500px;
-    background: url("../images/hero-banner.png") no-repeat;
+    background: url("../images/banner-purple.jpg") no-repeat;
     background-size: contain;
   }
  
