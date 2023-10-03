@@ -187,6 +187,7 @@ body {
   justify-content: space-between;
 }
 
+
 .btn-primary:is(:hover, :focus) { --bittersweet: hsl(2, 90%, 65%); }
 
 .btn-secondary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
@@ -200,6 +201,16 @@ body {
 \*-----------------------------------*/
 
 
+.logo_nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_nav > p{
+  text-transform: uppercase;
+  color: purple;
+}
 
 header {
   position: relative;
@@ -914,9 +925,9 @@ footer .logo { margin-bottom: 30px; }
     position: absolute;
     top: 50%;
     left: 35%;
-    width: 120px;
+    width: 100px;
     padding-top: 200px;
-    background: url("../images/banner-purple.jpg") no-repeat;
+    background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
   }
 
@@ -1263,6 +1274,29 @@ FOR WHO
     background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
   }
+
+  /* .hero-banner.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translateY(100px);
+    }
+    100% {
+      transform: translateY(-100px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(-10px);
+    }
+  } */
  
 
   /**
