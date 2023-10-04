@@ -324,6 +324,50 @@ header .container {
 }
 
 
+
+
+/*-----------------------------------*\ 
+ * #SERVICES | CLIENS
+\*-----------------------------------*/
+
+
+.services-content{
+  display: flex;
+  flex-direction: row;
+}
+
+.services-title {
+  margin-top: 25px;
+}
+
+.cliens {
+  padding: 12px 0;
+  text-align: left;
+}
+
+.ad-img{
+  max-width: 8%;
+}
+
+.cliens img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100);
+}
+
+.cliens img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+.section-bg {
+  background-color: #f3f5fa;
+}
+
+
+
+
+
 /*-----------------------------------*\ 
  * #RESUME
 \*-----------------------------------*/
