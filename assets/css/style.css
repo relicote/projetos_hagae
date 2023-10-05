@@ -283,6 +283,7 @@ header .container {
  * #HERO
 \*-----------------------------------*/
 
+
 .hero {
   position: relative;
   padding: 80px 0 60px;
@@ -927,6 +928,29 @@ footer .logo { margin-bottom: 30px; }
 
 
 /*-----------------------------------*\ 
+ * #WPP
+\*-----------------------------------*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+/*-----------------------------------*\ 
  * #GO TO TOP
 \*-----------------------------------*/
 
@@ -1214,10 +1238,14 @@ who we are | CARD MOBILE
 
 }
 
+.float{
+  right: 3px;
+  bottom: 100px;
+}
 
-
-
-
+.go-top{
+  right: 5px;
+}
 
 /**
  * responsive for larger than 560px 
@@ -1415,7 +1443,7 @@ FOR WHO
   .hero-banner{
     display: block;
     position: absolute;
-    top: 50%;
+    top: 40%;
     right: 0;
     transform: translateY(-50%);
     width: 500px;
