@@ -724,14 +724,16 @@ header .container {
   text-align: center;
 }
 
+.services_right, .services_left > p{
+  text-align: justify;
+}
+
 .services_left, .services_right{
   display: flex;
   flex-direction: column;
-  /* text-align: justify; */
 
   flex: 1;
   padding: 10px;
-  /* text-align: justify; */
 }
 
 /*-----------------------------------*\ 
