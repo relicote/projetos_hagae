@@ -714,6 +714,19 @@ header .container {
   color: var(--royal-blue-dark);
 }
 
+.services_sections{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.services_left .services_right{
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+
 /*-----------------------------------*\ 
  * #FAQ
 \*-----------------------------------*/
