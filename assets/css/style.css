@@ -717,14 +717,21 @@ header .container {
 .services_sections{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-top: 20px;
 }
 
-.services_left .services_right{
+.services_left, .services_right > h3{
+  text-align: center;
+}
+
+.services_left, .services_right{
   display: flex;
-  text-align: justify;
   flex-direction: column;
+  /* text-align: justify; */
+
+  flex: 1;
+  padding: 10px;
+  /* text-align: justify; */
 }
 
 /*-----------------------------------*\ 
