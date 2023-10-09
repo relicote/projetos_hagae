@@ -1219,7 +1219,7 @@ footer .logo { margin-bottom: 30px; }
 .services_content{
   position: relative;
   background-color: var(--container-color);
-  padding: 5px;
+  padding: 20px;
   border-radius: .25rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
   transition: .3s;
