@@ -1094,7 +1094,9 @@ footer .logo { margin-bottom: 30px; }
     right: -260px;
   }
 
-
+#cliens{
+  display: none;
+}
 
   /**
    * ABOUT 
