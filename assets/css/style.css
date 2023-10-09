@@ -704,6 +704,182 @@ header .container {
   /* gap: 30px; */
 }
 
+/* WHO-WE-ARE MOBILE */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --header-height: 3rem;
+    --hue-color: 230;
+
+    /* cores */
+    --first-color: hsl(var(--hue-color), 100%, 52%);
+    --first-color-second: hsl(var(--hue-color), 100%, 52%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
+    --container-color: #fff;
+
+
+
+    /*fonte e tipografia */
+
+    --body-font: 'Poppins', sans-serif;
+
+    --big-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /* espessura da fonte */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /* botões da margem */
+
+    --mb-0-25: .25rem;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --mb-3: 3rem;
+
+    /* z index */
+
+    --z-tolltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    /* font size for devices*/
+    @media screen  and(min-width: 968px) {
+        :root {
+
+            --big-font-size: 3rem;
+            --h1-font-size: 2.25rem;
+            --h2-font-size: 1.5rem;
+            --h3-font-size: 1.25rem;
+            --normal-font-size: 1rem;
+            --small-font-size: .875rem;
+            --smaller-font-size: .813rem;
+        }
+    }    
+        
+    }
+    
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+
+/* serviços */
+
+.services_container{
+    gap: 1.5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.services_content{
+    position: relative;
+    background-color: var(--container-color);
+    padding: 3.5rem .5rem 1.25rem 1.5rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+    transition: .3s;
+}
+
+.services_content:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
+}
+
+.services_icon{
+    display: block;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    margin-bottom: var(--mb-1);
+}
+
+.services_title{
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--mb-1);
+    font-weight: var(--font-medium);
+}
+
+.services_button{
+    cursor: pointer;
+    font-size: var(--small-font-size);
+}
+
+.services_button:hover .button_icon{
+    transform: translateX(.25rem);
+}
+
+.services_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    z-index: var(--z-modal);
+    opacity: 0; 
+    visibility: hidden;
+    transition: .3s;
+}
+
+.services_modal-content{
+    position: relative;
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.services_modal-services{
+    row-gap: 1rem;
+}
+
+.services_modal-service{
+    display: flex;
+}
+
+.services_modal-title{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1-5);
+}
+
+.services_modal-close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: var(--first-color);
+    cursor: pointer;
+}
+
+.services_modal-icon{
+    color: var(--first-color);
+    margin-right: var(--mb-0-25);
+}
+
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
 
 /*-----------------------------------*\ 
  * #DIFERENCIAL
@@ -1113,108 +1289,8 @@ footer .logo { margin-bottom: 30px; }
    * FEATURES / FOR WHO
    */
 
-  .features .h2 { --fs-2: 32px; }
+.features .h2 { --fs-2: 32px; }
 
-  
-/* 
-who we are | CARD MOBILE
-*/
-
-.services_container{
-  gap: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.services_content{
-  position: relative;
-  background-color: var(--container-color);
-  border-radius: .25rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
-  transition: .3s;
-}
-
-.services_content:hover{
-  box-shadow: 0 4px 8px rgba(0, 0, 0, .15);
-}
-
-.services_icon{
-  /* display: block; */
-  font-size: 1.5rem;
-  color: var(--first-color);
-  margin-bottom: var(--mb-1);
-}
-
-.services_title{
-  font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1);
-  font-weight: var(--font-medium);
-}
-
-.services_button{
-  cursor: pointer;
-  font-size: var(--cool-gray);
-}
-
-.services_button:hover .button_icon{
-  /* transform: translateX(.25rem); */
-}
-
-.services_modal{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0 1rem;
-  z-index: var(--z-modal);
-  opacity: 0; 
-  visibility: hidden;
-  transition: .3s;
-}
-
-.services_modal-content{
-  position: relative;
-  background-color: grey;
-  /* padding: 1.5rem; */
-  border-radius: .5rem;
-}
-
-.services_modal-services{
-  row-gap: 1rem;
-}
-
-.services_modal-service{
-  display: flex;
-}
-
-.services_modal-title{
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-1-5);
-}
-
-.services_modal-close{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  font-size: 1.5rem;
-  color: var(--first-color);
-  cursor: pointer;
-}
-
-.services_modal-icon{
-  color: var(--first-color);
-  margin-right: var(--mb-0-25);
-}
-
-.active-modal{
-  opacity: 1;
-  visibility: visible;
-}
 
 .row-content{
   /* display: flex; */
