@@ -170,8 +170,14 @@ body {
   padding: 10px 40px;
   border: 1px solid;
   border-radius: 6px;
-  display: flex;
-  justify-content: space-between;
+  transition: ease-in-out 0.5s;
+
+}
+
+button:hover{
+  background: #0f612d;
+  transform: translateY(-20px);
+  transition: ease-in-out 0.5s;
 }
 
 .wpp{
@@ -186,12 +192,6 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
-
-.btn-primary:is(:hover, :focus) { --bittersweet: hsl(2, 90%, 65%); }
-
-.btn-secondary:is(:hover, :focus) { background: hsla(0, 0%, 100%, 0.1); }
-
 
 
 
