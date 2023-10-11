@@ -729,21 +729,21 @@ header .container {
   margin-top: 20px;
 }
 
-.services_left, .services_right > h3{
-  text-align: center;
-}
-
-.services_right, .services_left > p{
-  text-align: justify;
-}
-
 .services_left, .services_right{
   display: flex;
   flex-direction: column;
 
   flex: 1;
+}
+.services_left > h3, .services_right > h3{
+  text-align: center;
   padding: 10px;
 }
+
+.services_right > p, .services_left > p{
+  text-align: center;
+}
+
 
 /*-----------------------------------*\ 
  * #FAQ
