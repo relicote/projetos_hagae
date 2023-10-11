@@ -170,13 +170,14 @@ body {
   padding: 10px 40px;
   border: 1px solid;
   border-radius: 6px;
-  transition: ease-in-out 0.5s;
-
 }
 
-button:hover{
-  background: #0f612d;
-  transform: translateY(-20px);
+.button-hover{
+  transition: ease-in-out 0.5s;
+}
+
+.button-hover:hover{
+  transform: translateY(-15px);
   transition: ease-in-out 0.5s;
 }
 
