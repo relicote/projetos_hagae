@@ -20,6 +20,9 @@
 
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 
   <!-- 
     - custom css link
@@ -677,28 +680,59 @@
 
           <h2 class="h2 section-title">Soluções para o seu négocio</h2>
 
-          <div class="services_sections">
+            <!-- <div class="container_content">
+              <div class="img_content">
+                <img src="./assets/images/img-externas/landingpages.webp" alt="">
 
-            <div class="services_left">
+                <div class="text-title_content">
+                  <p>Criação de Sites e Landing Pages</p>
 
-              <h3 class="">Desenvolvimento de Sites</h3>
+                  <div class="text_content">
 
-              <p>Contamos com uma equipe de profissionais responsáveis pelo desenvolvimento, estilização, manutenção e gerenciamento de sites exclusivos para o seu négocio ou marca.</p>
-
-            </div>
-
-            <div class="services_right">
-
-              <h3 class="">Social Media</h3>
-
-              <p>Profissionais qualificados e preparados para que mantenham sua rede social sempre atualizada e com o alcance dinamico. Nunca mais perca seguidores e deixe suas visualizações em alta.</p>
-
-            </div>
-
-          </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          
         </div>
        </section>
 
+
+      <!-- 
+        - #CARROUSEL 
+      -->
+
+      <section class="carrousel">
+        <div class="carrousel_container">
+          <h3 class="h3 section-title">É assim que você também pode receber clientes todos os dias
+          </h3>
+          
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./assets/images/img-externas/googleAd.jfif" alt="Foto 01">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./img/foto_02.png" alt="Foto 02">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="project-img">
+                  <img src="./img/foto_03.png" alt="Foto 03">
+                </div>
+              </div>
+            </div>
+          
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        </div>
+      </section>
 
       <!-- 
         - #CTA
@@ -994,6 +1028,9 @@
   <!-- 
     - custom js link
   -->
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
   <script src="./assets/js/script.js"></script>
   
   <script src="./assets/js/dropdown.js"></script>

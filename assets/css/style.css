@@ -723,32 +723,44 @@ header .container {
   color: var(--royal-blue-dark);
 }
 
-.services_sections{
+.img_content{
   display: flex;
-  flex-direction: row;
-  margin-top: 20px;
 }
 
-.services_left, .services_right{
+.text-title_content{
+  color: red;
+  
+}
+
+.container_content{
   display: flex;
-  flex-direction: column;
-  border-style: solid;
-  border-radius: 10px;
-  margin: 5px;
-
-  flex: 1;
+  border-width: 30px solid blue;
 }
-.services_left > h3, .services_right > h3{
+
+
+/*-----------------------------------*\ 
+ * #CARROUSEL
+\*-----------------------------------*/
+
+.carrousel > .carrousel_container > h3{
   text-align: center;
-  padding: 10px;
+  color: var(--royal-blue-dark);
 }
 
-.services_right > p, .services_left > p{
+.swiper {
+  height: 500px;
+}
+
+.swiper-slide {
   text-align: center;
-  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-
+.project-img > img{
+  height: 400px;
+}
 /*-----------------------------------*\ 
  * #FAQ
 \*-----------------------------------*/
