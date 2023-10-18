@@ -6,10 +6,10 @@ const sr = ScrollReveal({
 })
 
 // show up
-sr.reveal(`.hero-title, .footer-top, .hero-text, .section-title, .cta-title`)
+sr.reveal(`.hero-title, .footer-top, .hero-text, .section-title, .cta-title, .swiper`)
 
 // show bottom
-sr.reveal(`.btn-primary, .btn-secondary, .btn-secondary-grow, .about-list, .section-text, .faq`, {delay: 400, origin: 'bottom'})
+sr.reveal(`.btn-primary, .btn-secondary, .btn-secondary-grow, .about-list, .section-text, .faq,.ag-courses_item `, {delay: 400, origin: 'bottom'})
 
 // show delay only
 sr.reveal(`.logos__img, .program__card, .pricing__card`, {interval: 100})
