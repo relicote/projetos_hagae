@@ -877,6 +877,15 @@ header .container {
   }
 }
 
+.wordpress_img{
+  height: 50px;
+}
+
+.meta_img{
+  max-height: 100px;
+  width: 100px;
+}
+
 /*-----------------------------------*\ 
  * #CARROUSEL
 \*-----------------------------------*/
