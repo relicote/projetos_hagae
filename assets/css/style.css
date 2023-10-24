@@ -878,12 +878,17 @@ header .container {
 }
 
 .wordpress_img{
+  padding-top: 10px;
   height: 50px;
 }
 
 .meta_img{
-  max-height: 100px;
-  width: 100px;
+  height: 50px;
+}
+
+.google_img{
+  padding-top: 10px;
+  height: 50px;
 }
 
 /*-----------------------------------*\ 
