@@ -882,9 +882,9 @@ header .container {
   height: 50px;
 }
 
-.meta_img{
-  height: 50px;
-}
+/* .meta_img{
+  height: 100%;
+} */
 
 .google_img{
   padding-top: 10px;
