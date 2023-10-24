@@ -1725,9 +1725,9 @@ FOR WHO
   .hero-content { max-width: 550px; }
 
   .hero-banner{
-    display: block;
+    display: flex;
     position: absolute;
-    top: 40%;
+    top: 30%;
     right: 0%;
     transform: translateY(-50%);
     width: 500px;
@@ -1913,8 +1913,8 @@ FOR WHO
     /* DESKTOP */
     .hero-banner { 
       right: 100px; 
-      /* top: 0.1%; */
-      /* animation: pulse 2s infinite;  */
+      top: 0%;
+      animation: pulse 2s infinite; 
     }
 
 
