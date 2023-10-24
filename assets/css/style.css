@@ -1208,14 +1208,14 @@ footer .logo { margin-bottom: 30px; }
   .hero-banner {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: -8%;
     left: 35%;
-    width: 100px;
+    width: 120px;
     padding-top: 200px;
     background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
 
-    /* animation: pulse 2s infinite;  */
+    animation: pulse 2s infinite; 
 
   }
 
