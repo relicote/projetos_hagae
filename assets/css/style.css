@@ -1208,9 +1208,9 @@ footer .logo { margin-bottom: 30px; }
   .hero-banner {
     display: flex;
     position: absolute;
-    top: -8%;
-    left: 35%;
-    width: 120px;
+    top: -15%;
+    left: 33%;
+    width: 140px;
     padding-top: 200px;
     background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
