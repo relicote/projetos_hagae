@@ -879,16 +879,17 @@ header .container {
 
 .wordpress_img{
   padding-top: 10px;
-  height: 50px;
+  height: 40px;
 }
 
-/* .meta_img{
-  height: 100%;
-} */
+.meta_img{
+  height: 40px;
+  padding-top: 10px;
+}
 
 .google_img{
   padding-top: 10px;
-  height: 50px;
+  height: 40px;
 }
 
 /*-----------------------------------*\ 
