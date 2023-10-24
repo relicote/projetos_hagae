@@ -319,7 +319,7 @@ header .container {
 
 .hero .btn-primary { margin-inline: auto; }
 
-.hero-banner { display: none; }
+.hero-banner { display: none;}
 
 .shape-content {
   position: absolute;
@@ -1199,6 +1199,9 @@ footer .logo { margin-bottom: 30px; }
     padding-top: 200px;
     background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
+
+    /* animation: pulse 2s infinite;  */
+
   }
 
 
@@ -1725,12 +1728,15 @@ FOR WHO
     display: block;
     position: absolute;
     top: 40%;
-    right: 0;
+    right: 0%;
     transform: translateY(-50%);
     width: 500px;
     padding-top: 500px;
     background: url("../images/banner-teste.png") no-repeat;
     background-size: contain;
+    
+    /* animation: pulse 2s infinite;  */
+
   }
 
   /* .hero-banner.animated{
@@ -1896,7 +1902,7 @@ FOR WHO
    * REUSED STYLE
    */
 
-  .container { max-width: 1150px; }
+  .container { max-width: 1150px;  }
 
 
 
@@ -1904,7 +1910,12 @@ FOR WHO
    * HERO
    */
 
-  .hero-banner { right: 100px; }
+    /* DESKTOP */
+    .hero-banner { 
+      right: 100px; 
+      /* top: 0.1%; */
+      /* animation: pulse 2s infinite;  */
+    }
 
 
 
