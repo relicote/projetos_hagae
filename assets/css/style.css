@@ -1913,7 +1913,7 @@ FOR WHO
     /* DESKTOP */
     .hero-banner { 
       right: 100px; 
-      top: 0%;
+      top: -10%;
       animation: pulse 2s infinite; 
     }
 
