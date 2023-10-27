@@ -1269,8 +1269,9 @@ footer .logo { margin-bottom: 30px; }
     right: -260px;
   }
 
-#cliens{
-  display: none;
+.services-title > h2{
+  margin-bottom: 20px;
+  font-size: 10px;
 }
 
   /**
