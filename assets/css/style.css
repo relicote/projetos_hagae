@@ -1272,11 +1272,17 @@ footer .logo { margin-bottom: 30px; }
 .services-title > h2{
   margin-bottom: 20px;
   font-size: 15px;
+  padding: 0px;
 }
 
 .ad-img > img {
-  margin-top: 35px;
-  padding: 0px;
+  margin-top: 15px;
+  max-width: 80px;
+  transform: translateX(-60px);
+}
+
+.ad-logo-ttk{
+  display: none;
 }
 
 
