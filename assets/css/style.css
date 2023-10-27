@@ -1209,10 +1209,10 @@ footer .logo { margin-bottom: 30px; }
     display: flex;
     position: absolute;
     top: -15%;
-    left: 33%;
-    width: 140px;
+    left: 24%;
+    width: 210px;
     padding-top: 200px;
-    background: url("../images/banner-teste.png") no-repeat;
+    background: url("../images/banner_hero.png") no-repeat;
     background-size: contain;
 
     animation: pulse 2s infinite; 
@@ -1761,11 +1761,10 @@ FOR WHO
     display: flex;
     position: absolute;
     top: 30%;
-    right: 0%;
     transform: translateY(-50%);
-    width: 500px;
+    width: 600px;
     padding-top: 500px;
-    background: url("../images/banner-teste.png") no-repeat;
+    background: url("/assets/images/banner_hero.png") no-repeat;
     background-size: contain;
     
     /* animation: pulse 2s infinite;  */
@@ -1945,8 +1944,8 @@ FOR WHO
 
     /* DESKTOP */
     .hero-banner { 
-      right: 100px; 
-      top: -10%;
+      right: 45px; 
+      top: -5%;
       animation: pulse 2s infinite; 
     }
 
