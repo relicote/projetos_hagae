@@ -1278,8 +1278,10 @@ footer .logo { margin-bottom: 30px; }
 .ad-img > img {
   margin-top: 18px;
   max-width: 80px;
-  transform: translateX(-60px);
+
+  transition: none;
 }
+
 
 .ad-logo-ttk{
   display: none;
