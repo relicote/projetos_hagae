@@ -1271,8 +1271,14 @@ footer .logo { margin-bottom: 30px; }
 
 .services-title > h2{
   margin-bottom: 20px;
-  font-size: 10px;
+  font-size: 15px;
 }
+
+.ad-img > img {
+  margin-top: 35px;
+  padding: 0px;
+}
+
 
   /**
    * ABOUT 
