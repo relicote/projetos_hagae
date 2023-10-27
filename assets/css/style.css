@@ -344,7 +344,7 @@ header .container {
 
 .services-title {
   margin-top: 25px;
-  padding: 12px 0;
+  padding: 12px;
   text-align: left;
 }
 
@@ -1269,17 +1269,20 @@ footer .logo { margin-bottom: 30px; }
     right: -260px;
   }
 
+  .services-title{
+    padding-right:  0px;
+  }
+
 .services-title > h2{
   margin-bottom: 20px;
   font-size: 15px;
-  padding: 0px;
 }
 
 .ad-img > img {
   margin-top: 18px;
   max-width: 80px;
-
-  transition: none;
+  margin-left: -40px;
+  
 }
 
 
